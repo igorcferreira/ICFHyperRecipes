@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADE0213B1C49C2670019B452 /* ICFAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0213A1C49C2670019B452 /* ICFAppDelegate.swift */; };
+		ADE0213D1C49C2670019B452 /* ICFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0213C1C49C2670019B452 /* ICFViewController.swift */; };
+		ADE021401C49C2670019B452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE0213E1C49C2670019B452 /* Main.storyboard */; };
+		ADE021421C49C2670019B452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE021411C49C2670019B452 /* Assets.xcassets */; };
+		ADE021451C49C2670019B452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE021431C49C2670019B452 /* LaunchScreen.storyboard */; };
+		ADE021501C49C2680019B452 /* ICFHyperRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0214F1C49C2680019B452 /* ICFHyperRecipesTests.swift */; };
+		ADE0215B1C49C2680019B452 /* ICFHyperRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0215A1C49C2680019B452 /* ICFHyperRecipesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE0214C1C49C2680019B452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE0212F1C49C2670019B452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE021361C49C2670019B452;
+			remoteInfo = ICFHyperRecipes;
+		};
+		ADE021571C49C2680019B452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE0212F1C49C2670019B452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE021361C49C2670019B452;
+			remoteInfo = ICFHyperRecipes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADE021371C49C2670019B452 /* HyperRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE0213A1C49C2670019B452 /* ICFAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFAppDelegate.swift; sourceTree = "<group>"; };
+		ADE0213C1C49C2670019B452 /* ICFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFViewController.swift; sourceTree = "<group>"; };
+		ADE0213F1C49C2670019B452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADE021411C49C2670019B452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADE021441C49C2670019B452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADE021461C49C2680019B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE0214B1C49C2680019B452 /* HyperRecipes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperRecipes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE0214F1C49C2680019B452 /* ICFHyperRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFHyperRecipesTests.swift; sourceTree = "<group>"; };
+		ADE021511C49C2680019B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE021561C49C2680019B452 /* HyperRecipes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperRecipes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE0215A1C49C2680019B452 /* ICFHyperRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFHyperRecipesUITests.swift; sourceTree = "<group>"; };
+		ADE0215C1C49C2680019B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE021341C49C2670019B452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021481C49C2680019B452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021531C49C2680019B452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE0212E1C49C2670019B452 = {
+			isa = PBXGroup;
+			children = (
+				ADE021391C49C2670019B452 /* ICFHyperRecipes */,
+				ADE0214E1C49C2680019B452 /* ICFHyperRecipesTests */,
+				ADE021591C49C2680019B452 /* ICFHyperRecipesUITests */,
+				ADE021381C49C2670019B452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE021381C49C2670019B452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE021371C49C2670019B452 /* HyperRecipes.app */,
+				ADE0214B1C49C2680019B452 /* HyperRecipes.xctest */,
+				ADE021561C49C2680019B452 /* HyperRecipes.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE021391C49C2670019B452 /* ICFHyperRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0213A1C49C2670019B452 /* ICFAppDelegate.swift */,
+				ADE0213C1C49C2670019B452 /* ICFViewController.swift */,
+				ADE0213E1C49C2670019B452 /* Main.storyboard */,
+				ADE021411C49C2670019B452 /* Assets.xcassets */,
+				ADE021431C49C2670019B452 /* LaunchScreen.storyboard */,
+				ADE021461C49C2680019B452 /* Info.plist */,
+			);
+			path = ICFHyperRecipes;
+			sourceTree = "<group>";
+		};
+		ADE0214E1C49C2680019B452 /* ICFHyperRecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0214F1C49C2680019B452 /* ICFHyperRecipesTests.swift */,
+				ADE021511C49C2680019B452 /* Info.plist */,
+			);
+			path = ICFHyperRecipesTests;
+			sourceTree = "<group>";
+		};
+		ADE021591C49C2680019B452 /* ICFHyperRecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0215A1C49C2680019B452 /* ICFHyperRecipesUITests.swift */,
+				ADE0215C1C49C2680019B452 /* Info.plist */,
+			);
+			path = ICFHyperRecipesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE021361C49C2670019B452 /* HyperRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE0215F1C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipes" */;
+			buildPhases = (
+				ADE021331C49C2670019B452 /* Sources */,
+				ADE021341C49C2670019B452 /* Frameworks */,
+				ADE021351C49C2670019B452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperRecipes;
+			productName = ICFHyperRecipes;
+			productReference = ADE021371C49C2670019B452 /* HyperRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE0214A1C49C2680019B452 /* HyperRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE021621C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesTests" */;
+			buildPhases = (
+				ADE021471C49C2680019B452 /* Sources */,
+				ADE021481C49C2680019B452 /* Frameworks */,
+				ADE021491C49C2680019B452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE0214D1C49C2680019B452 /* PBXTargetDependency */,
+			);
+			name = HyperRecipesTests;
+			productName = ICFHyperRecipesTests;
+			productReference = ADE0214B1C49C2680019B452 /* HyperRecipes.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADE021551C49C2680019B452 /* HyperRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE021651C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesUITests" */;
+			buildPhases = (
+				ADE021521C49C2680019B452 /* Sources */,
+				ADE021531C49C2680019B452 /* Frameworks */,
+				ADE021541C49C2680019B452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE021581C49C2680019B452 /* PBXTargetDependency */,
+			);
+			name = HyperRecipesUITests;
+			productName = ICFHyperRecipesUITests;
+			productReference = ADE021561C49C2680019B452 /* HyperRecipes.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE0212F1C49C2670019B452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ICF;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Igor Ferreira";
+				TargetAttributes = {
+					ADE021361C49C2670019B452 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ADE0214A1C49C2680019B452 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ADE021361C49C2670019B452;
+					};
+					ADE021551C49C2680019B452 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ADE021361C49C2670019B452;
+					};
+				};
+			};
+			buildConfigurationList = ADE021321C49C2670019B452 /* Build configuration list for PBXProject "HyperRecipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE0212E1C49C2670019B452;
+			productRefGroup = ADE021381C49C2670019B452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE021361C49C2670019B452 /* HyperRecipes */,
+				ADE0214A1C49C2680019B452 /* HyperRecipesTests */,
+				ADE021551C49C2680019B452 /* HyperRecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE021351C49C2670019B452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE021451C49C2670019B452 /* LaunchScreen.storyboard in Resources */,
+				ADE021421C49C2670019B452 /* Assets.xcassets in Resources */,
+				ADE021401C49C2670019B452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021491C49C2680019B452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021541C49C2680019B452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE021331C49C2670019B452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE0213D1C49C2670019B452 /* ICFViewController.swift in Sources */,
+				ADE0213B1C49C2670019B452 /* ICFAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021471C49C2680019B452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE021501C49C2680019B452 /* ICFHyperRecipesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE021521C49C2680019B452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE0215B1C49C2680019B452 /* ICFHyperRecipesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE0214D1C49C2680019B452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE021361C49C2670019B452 /* HyperRecipes */;
+			targetProxy = ADE0214C1C49C2680019B452 /* PBXContainerItemProxy */;
+		};
+		ADE021581C49C2680019B452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE021361C49C2670019B452 /* HyperRecipes */;
+			targetProxy = ADE021571C49C2680019B452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADE0213E1C49C2670019B452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE0213F1C49C2670019B452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADE021431C49C2670019B452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE021441C49C2670019B452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADE0215D1C49C2680019B452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE0215E1C49C2680019B452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE021601C49C2680019B452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICFHyperRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.HyperRecipes;
+				PRODUCT_NAME = HyperRecipes;
+			};
+			name = Debug;
+		};
+		ADE021611C49C2680019B452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICFHyperRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.HyperRecipes;
+				PRODUCT_NAME = HyperRecipes;
+			};
+			name = Release;
+		};
+		ADE021631C49C2680019B452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICFHyperRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.ICFHyperRecipesTests;
+				PRODUCT_NAME = HyperRecipes;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperRecipes.app/HyperRecipes";
+			};
+			name = Debug;
+		};
+		ADE021641C49C2680019B452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICFHyperRecipesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.ICFHyperRecipesTests;
+				PRODUCT_NAME = HyperRecipes;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperRecipes.app/HyperRecipes";
+			};
+			name = Release;
+		};
+		ADE021661C49C2680019B452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICFHyperRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.ICFHyperRecipesUITests;
+				PRODUCT_NAME = HyperRecipes;
+				TEST_TARGET_NAME = ICFHyperRecipes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ADE021671C49C2680019B452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICFHyperRecipesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.ICFHyperRecipesUITests;
+				PRODUCT_NAME = HyperRecipes;
+				TEST_TARGET_NAME = ICFHyperRecipes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE021321C49C2670019B452 /* Build configuration list for PBXProject "HyperRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE0215D1C49C2680019B452 /* Debug */,
+				ADE0215E1C49C2680019B452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE0215F1C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE021601C49C2680019B452 /* Debug */,
+				ADE021611C49C2680019B452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE021621C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE021631C49C2680019B452 /* Debug */,
+				ADE021641C49C2680019B452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE021651C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE021661C49C2680019B452 /* Debug */,
+				ADE021671C49C2680019B452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE0212F1C49C2670019B452 /* Project object */;
+}
