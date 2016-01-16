@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98DEC3C335F2147AEAADA720 /* Pods_HyperRecipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDF3187B782C062367C26D0 /* Pods_HyperRecipes.framework */; };
 		ADE0213B1C49C2670019B452 /* ICFAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0213A1C49C2670019B452 /* ICFAppDelegate.swift */; };
 		ADE0213D1C49C2670019B452 /* ICFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0213C1C49C2670019B452 /* ICFViewController.swift */; };
 		ADE021401C49C2670019B452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE0213E1C49C2670019B452 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		ADE021451C49C2670019B452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE021431C49C2670019B452 /* LaunchScreen.storyboard */; };
 		ADE021501C49C2680019B452 /* ICFHyperRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0214F1C49C2680019B452 /* ICFHyperRecipesTests.swift */; };
 		ADE0215B1C49C2680019B452 /* ICFHyperRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0215A1C49C2680019B452 /* ICFHyperRecipesUITests.swift */; };
+		D3BE5562A10B3F971B6021B0 /* Pods_HyperRecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D829B7C197EAE6D039C58DAF /* Pods_HyperRecipesUITests.framework */; };
+		EA0EF7C0432260D65462D6CE /* Pods_HyperRecipesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5439F83541FF6332A7EA2A5D /* Pods_HyperRecipesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D93E22CF56A6D83ADB37A1F /* Pods-HyperRecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipesUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipesUITests/Pods-HyperRecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		424FE4A1362A904FA2E64D56 /* Pods-HyperRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipes.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipes/Pods-HyperRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		5439F83541FF6332A7EA2A5D /* Pods_HyperRecipesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperRecipesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		926861713FE79B2916FCC5A0 /* Pods-HyperRecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipesUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipesUITests/Pods-HyperRecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE021371C49C2670019B452 /* HyperRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE0213A1C49C2670019B452 /* ICFAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFAppDelegate.swift; sourceTree = "<group>"; };
 		ADE0213C1C49C2670019B452 /* ICFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		ADE021561C49C2680019B452 /* HyperRecipes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperRecipes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE0215A1C49C2680019B452 /* ICFHyperRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICFHyperRecipesUITests.swift; sourceTree = "<group>"; };
 		ADE0215C1C49C2680019B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BE0BBB9E64A64A0AFBB884 /* Pods-HyperRecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipesTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipesTests/Pods-HyperRecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD488AFB0FA58210B8D62F93 /* Pods-HyperRecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipesTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipesTests/Pods-HyperRecipesTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2230618AB9A3F1FA6CC376D /* Pods-HyperRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperRecipes.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HyperRecipes/Pods-HyperRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		D829B7C197EAE6D039C58DAF /* Pods_HyperRecipesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperRecipesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDF3187B782C062367C26D0 /* Pods_HyperRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DEC3C335F2147AEAADA720 /* Pods_HyperRecipes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0EF7C0432260D65462D6CE /* Pods_HyperRecipesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BE5562A10B3F971B6021B0 /* Pods_HyperRecipesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C614B649F20B6301C316D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2230618AB9A3F1FA6CC376D /* Pods-HyperRecipes.debug.xcconfig */,
+				424FE4A1362A904FA2E64D56 /* Pods-HyperRecipes.release.xcconfig */,
+				B8BE0BBB9E64A64A0AFBB884 /* Pods-HyperRecipesTests.debug.xcconfig */,
+				BD488AFB0FA58210B8D62F93 /* Pods-HyperRecipesTests.release.xcconfig */,
+				926861713FE79B2916FCC5A0 /* Pods-HyperRecipesUITests.debug.xcconfig */,
+				0D93E22CF56A6D83ADB37A1F /* Pods-HyperRecipesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AB38082F2D7435BC1840062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDF3187B782C062367C26D0 /* Pods_HyperRecipes.framework */,
+				5439F83541FF6332A7EA2A5D /* Pods_HyperRecipesTests.framework */,
+				D829B7C197EAE6D039C58DAF /* Pods_HyperRecipesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADE0212E1C49C2670019B452 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				ADE0214E1C49C2680019B452 /* ICFHyperRecipesTests */,
 				ADE021591C49C2680019B452 /* ICFHyperRecipesUITests */,
 				ADE021381C49C2670019B452 /* Products */,
+				4C614B649F20B6301C316D64 /* Pods */,
+				9AB38082F2D7435BC1840062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE0215F1C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipes" */;
 			buildPhases = (
+				44145A8A36712E8C78F6ADF7 /* Check Pods Manifest.lock */,
 				ADE021331C49C2670019B452 /* Sources */,
 				ADE021341C49C2670019B452 /* Frameworks */,
 				ADE021351C49C2670019B452 /* Resources */,
+				9A39D6A79B6B85C8FC8946A4 /* Embed Pods Frameworks */,
+				E591A2A9FE76803F950634D0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE021621C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesTests" */;
 			buildPhases = (
+				E41694FD4BC574FEC4C723A3 /* Check Pods Manifest.lock */,
 				ADE021471C49C2680019B452 /* Sources */,
 				ADE021481C49C2680019B452 /* Frameworks */,
 				ADE021491C49C2680019B452 /* Resources */,
+				18656CB701F7042D5F241FA0 /* Embed Pods Frameworks */,
+				276DCA32A9D77D964E8127F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE021651C49C2680019B452 /* Build configuration list for PBXNativeTarget "HyperRecipesUITests" */;
 			buildPhases = (
+				C90876F0C333AA420D6E8F35 /* Check Pods Manifest.lock */,
 				ADE021521C49C2680019B452 /* Sources */,
 				ADE021531C49C2680019B452 /* Frameworks */,
 				ADE021541C49C2680019B452 /* Resources */,
+				FA962C7F2D77139794405FC1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +299,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18656CB701F7042D5F241FA0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HyperRecipesTests/Pods-HyperRecipesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		276DCA32A9D77D964E8127F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HyperRecipesTests/Pods-HyperRecipesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44145A8A36712E8C78F6ADF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A39D6A79B6B85C8FC8946A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HyperRecipes/Pods-HyperRecipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90876F0C333AA420D6E8F35 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E41694FD4BC574FEC4C723A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E591A2A9FE76803F950634D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HyperRecipes/Pods-HyperRecipes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA962C7F2D77139794405FC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HyperRecipesUITests/Pods-HyperRecipesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADE021331C49C2670019B452 /* Sources */ = {
@@ -398,6 +569,7 @@
 		};
 		ADE021601C49C2680019B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2230618AB9A3F1FA6CC376D /* Pods-HyperRecipes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICFHyperRecipes/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		ADE021611C49C2680019B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424FE4A1362A904FA2E64D56 /* Pods-HyperRecipes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICFHyperRecipes/Info.plist;
@@ -422,6 +595,7 @@
 		};
 		ADE021631C49C2680019B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BE0BBB9E64A64A0AFBB884 /* Pods-HyperRecipesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ICFHyperRecipesTests/Info.plist;
@@ -434,6 +608,7 @@
 		};
 		ADE021641C49C2680019B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD488AFB0FA58210B8D62F93 /* Pods-HyperRecipesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ICFHyperRecipesTests/Info.plist;
@@ -446,6 +621,7 @@
 		};
 		ADE021661C49C2680019B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926861713FE79B2916FCC5A0 /* Pods-HyperRecipesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ICFHyperRecipesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +634,7 @@
 		};
 		ADE021671C49C2680019B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D93E22CF56A6D83ADB37A1F /* Pods-HyperRecipesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ICFHyperRecipesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

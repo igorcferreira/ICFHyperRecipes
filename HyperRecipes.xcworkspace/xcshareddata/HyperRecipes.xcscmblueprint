@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "643FE100A0B34DE435B11471E0193C8302396A63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "047036DDA601469055C76265B2C19CAC44ECBF94" : 0,
+    "643FE100A0B34DE435B11471E0193C8302396A63" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7318A594-B6F1-4C96-994A-04A8789E0246",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "047036DDA601469055C76265B2C19CAC44ECBF94" : "",
+    "643FE100A0B34DE435B11471E0193C8302396A63" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HyperRecipes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HyperRecipes.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorcferreira\/HyperRecipes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "047036DDA601469055C76265B2C19CAC44ECBF94"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorcferreira\/ICFHyperRecipes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "643FE100A0B34DE435B11471E0193C8302396A63"
+    }
+  ]
+}

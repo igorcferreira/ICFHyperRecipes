@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import ICFHyperRecipes
 
 class ICFHyperRecipesTests: XCTestCase {
     
